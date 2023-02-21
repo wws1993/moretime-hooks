@@ -1,0 +1,30 @@
+{
+  "name": "@moretime/hooks",
+  "version": "0.0.1",
+  "description": "闲暇Hook",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "publish": "npm publish"
+  },
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wws1993/moretime-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wws1993/moretime-lib/issues"
+  },
+  "homepage": "https://github.com/wws1993/moretime-lib#readme",
+  "keywords": [
+    "typescript"
+  ],
+  "author": {
+    "name": "wws1993",
+    "email": "15696141050@163.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
